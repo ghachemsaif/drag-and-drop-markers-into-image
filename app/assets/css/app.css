@@ -1,0 +1,35 @@
+#form-container{
+	width: 500px;
+}
+.drag-element-source {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+    margin: 5px;
+}
+.dropped-element {
+    position: absolute;
+    cursor: move;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+}
+.marker_red_select {
+    background-image: url(../img/red.svg);
+}
+.marker_black_select {
+    background-image: url(../img/black.svg);
+}
+.marker_green_select {
+    background-image: url(../img/green.svg);
+}
+.outils{
+	    width: 300px;
+    text-align: center;
+    border: 1px dashed;
+}

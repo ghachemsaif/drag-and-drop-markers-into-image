@@ -1,0 +1,22 @@
+
+<div id="drag-container" ng-controller="controller">
+    <div id="tool-container" class="outils">
+        <drag-element data-marker="marker_black_select" class="marker_black_select"></drag-element>
+        <drag-element data-marker="marker_green_select" class="marker_green_select"></drag-element>
+        <drag-element data-marker="marker_red_select" class="marker_red_select"></drag-element>
+
+
+    </div>
+    <div id="form-container" class="outils">
+        <img ng-src="http://marrakech.viaprestige-holidays.com/wp-content/uploads/Plan-jemaa-elfna-viaprestige-2.gif">
+        <dropped-element ng-repeat="zone in zones track by $index"
+                         class="{{zone.className}}"
+                         on-drag-stop="onDroppedDragStop"
+                         settings="zone"
+                         data="{{zone}}"
+                         index="$index"
+                         id="{{zone.marker_id}}"
+        ></dropped-element>
+    </div>
+
+</div>

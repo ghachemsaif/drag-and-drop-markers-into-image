@@ -1,0 +1,15 @@
+{
+  "name": "drag-and-drop-markers",
+  "description": "This is a repo made by Ghachem Seif eddine, a Frontend Web developer.",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "angular": "1.6.4",
+    "angular-bootstrap": "0.9.0",
+    "bootstrap": "^3.1.1",
+    "jQuery": "^3.1.1",
+    "jquery-ui": "1.11.4",
+    "angular-route": "^1.6.6",
+    "lodash": "^4.17.4"
+  }
+}
